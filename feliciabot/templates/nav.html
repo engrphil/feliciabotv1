@@ -1,0 +1,21 @@
+{% load staticfiles %}
+
+<nav class="navbar navbar-dark bg-inverse navbar-full">
+
+  <a class="navbar-brand" href="{% url 'main' %}">
+    <img src="{% static 'img/1mtlogo.png' %}" width="50" height="30" class="d-inline-block align-top" alt="1MT">
+        Felicia
+  </a>
+
+  <ul class="nav navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="http://www.1millionteachers.com/">Back to 1MT</a>
+    </li>
+  </ul>
+
+  <ul class="nav navbar-nav float-xs-right">
+    <li class="nav-item">
+      <a class="nav-link" href="http://www.1millionteachers.com/">Exit</a>
+    </li>
+  </ul>
+</nav>
