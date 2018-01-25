@@ -25,7 +25,7 @@ SECRET_KEY = '^8a2s*x5*9vzj=zir=o*in6ikqglxerw1w1x0(&5ma*1qy3m2b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['calm-everglades-27779.herokuapp.com']
 
 
 # Application definition
